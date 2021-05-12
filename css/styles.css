@@ -1,0 +1,199 @@
+#title {
+    background-color: #ff4c68;
+    min-height: 85vh;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: 'Montserrat-black', sans-serif;
+
+}
+
+.row-title {
+    padding-left: 15%;
+}
+
+.row-title h1 {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: bolder;
+    padding-top: 6rem;
+}
+
+.container-fluid {
+    padding: 1% 15%;
+}
+
+.buttons {
+    margin: 0 1rem 0 0;
+    padding-top: 2rem;
+}
+
+.left-button {
+    margin: 0 1rem 0 0;
+}
+
+
+.btn img {
+    width:1rem;
+    margin-left: 0.4rem;
+    margin-bottom: 0.2rem;
+}
+
+.col-smartphone {
+    
+}
+
+.img-smartphone {
+    transform: rotate(20deg);
+    height: 45rem;
+    padding-top: 6rem;
+    position: absolute;
+    right: 29%;
+}
+
+.nav-item {
+    margin: 0 0 0 3rem;
+}
+.col-lg-4 img {
+    width: 5rem;
+}
+
+.col-lg-4 img:hover {
+    background-color: rgb(233, 84, 47, 0.2);
+    border-radius: 50%;
+}
+
+#features {
+    padding: 12rem;
+    padding-bottom: 5rem;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    background-color: white;
+}
+
+.features-row {
+    padding: 0;
+}
+
+.col-lg-4 {
+    margin-bottom: 5rem;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    padding: 7% 15% 0;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+    
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 5rem;
+    margin: 2rem 0;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#press img {
+    width: 15%;
+    margin: 1rem 1rem 2.5rem;
+}
+
+#pricing {
+    padding: 6rem 12rem 12rem 12rem;
+    padding-bottom: 5rem;
+    position: relative;
+    text-align: center;
+}
+
+.card-body {
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+#pricing-row {
+    padding: 0;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/* Unusual sizes below */
+
+@media only screen and (min-device-width: 440px) and (max-device-width: 991px) {
+
+    html {
+        font-size: 75%;
+    }
+
+    .img-smartphone {
+    }
+  }
+
+
+
+/* Normal Phone and Tablet sizes below */
+
+@media only screen and (min-device-width: 440px) and (max-device-width: 480px) {
+    #title {
+        min-height: 80vh;
+    }
+  }
+
+  @media only screen and (min-device-width: 400px) and (max-device-width: 440px) {
+    #title {
+        min-height: 70vh;
+    }
+  }
+
+  @media only screen and (min-device-width: 360px) and (max-device-width: 400px) {
+    #title {
+        min-height: 65vh;
+    }
+  }
+
+  @media only screen and (min-device-width: 300px) and (max-device-width: 360px) {
+    #title {
+        min-height: 60vh;
+    }
+  }
+
+  @media only screen and (min-device-width: 240px) and (max-device-width: 300px) {
+    #title {
+        min-height: 50vh;
+    }
+  }
+
+  @media only screen and (min-device-width: 180px) and (max-device-width: 240px) {
+    #title {
+        min-height: 40vh;
+    }
+  }
