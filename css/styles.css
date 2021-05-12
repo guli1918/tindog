@@ -50,9 +50,6 @@ h2 {
     margin-bottom: 0.2rem;
 }
 
-.col-smartphone {
-    
-}
 
 .img-smartphone {
     transform: rotate(20deg);
@@ -152,9 +149,6 @@ h2 {
 
     html {
         font-size: 75%;
-    }
-
-    .img-smartphone {
     }
   }
 
