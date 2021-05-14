@@ -209,6 +209,18 @@ h2 {
         width: 3rem;
     }
 
+    .card-body {
+        font-size: 2.5rem;
+    }
+    
+    .card-body h5 {
+        font-size: 2rem;
+    }
+
+    .card-body h2{
+        font-size: 4rem;
+    }
+
     .img-smartphone {
         transform: rotate(0deg);
         height: 45rem;
