@@ -1,1 +1,2 @@
-TinDog Starting Files
+# tindog
+# Not responsive one page tindog app
